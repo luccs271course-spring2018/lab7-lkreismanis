@@ -27,7 +27,10 @@ class Node<E> {
 
   /** Returns a string representation of the node suitable for debugging. */
   public String toString() {
-    return "Node@" + hashCode() + "(" + data +
-        (next != null ? ", Node@" + next.hashCode() + ")" : ")");
+    return "Node@"
+        + hashCode()
+        + "("
+        + data
+        + (next != null ? ", Node@" + next.hashCode() + ")" : ")");
   }
 }

@@ -3,10 +3,10 @@ package edu.luc.cs271.linkedstack;
 import java.util.List;
 
 /**
- * Generic interface for a last-in-first-out (LIFO) data structure
- * where objects are inserted into and removed from the same end.
+ * Generic interface for a last-in-first-out (LIFO) data structure where objects are inserted into
+ * and removed from the same end.
  *
- * Based on Koffman & Wolfgang, Data Structures 3rd ed, Wiley 2015.
+ * <p>Based on Koffman & Wolfgang, Data Structures 3rd ed, Wiley 2015.
  *
  * @param <E> The element type
  */
@@ -47,8 +47,8 @@ public interface IStack<E> {
   boolean isEmpty();
 
   /**
-   * Returns a Java list containing the items currently in the stack.
-   * The item at the top of the stack is the first item of the list (at index 0).
+   * Returns a Java list containing the items currently in the stack. The item at the top of the
+   * stack is the first item of the list (at index 0).
    *
    * @post The stack remains unchanged.
    * @return The list containing the items in the stack
