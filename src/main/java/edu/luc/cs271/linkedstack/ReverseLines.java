@@ -6,7 +6,7 @@ public class ReverseLines {
 
   public static void main(final String[] args) {
     // DONE read successive input lines until EOF, then print out in reverse order
-    System.out.println("Print ReverseLines Executed");
+    // System.out.println("Print ReverseLines Executed");
     final Scanner input = new Scanner(System.in);
     printReverse(input);
   }
@@ -29,11 +29,8 @@ public class ReverseLines {
       System.out.println(line);
       printReverse(input);
       System.out.println(line);
-    }
-    /*
-    else {
+    } else {
       return;
     }
-    */
   }
 }
