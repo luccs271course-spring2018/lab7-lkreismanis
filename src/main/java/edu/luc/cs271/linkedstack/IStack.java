@@ -54,4 +54,6 @@ public interface IStack<E> {
    * @return The list containing the items in the stack
    */
   List<E> asList();
+
+  List<E> asFifoList();
 }
